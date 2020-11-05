@@ -5,7 +5,6 @@ git:latest
 robot:latest
 matrix-project:latest
 matrix-auth:latest
-active-directory:latest
 script-security:latest
 job-dsl:latest
 warnings-ng:latest
@@ -22,5 +21,5 @@ workflow-step-api:latest
 workflow-support:latest
 authorize-project:latest
 htmlpublisher:latest
-qftest:latest
 swarm:latest
+active-directory:2.20
