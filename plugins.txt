@@ -26,7 +26,7 @@ active-directory:2.20
 blueocean:1.24.3
 simple-theme-plugin:0.6
 ws-cleanup:0.38
-junit:1.43
+junit:1.47
 jacoco:3.0.8
 font-awesome-api:5.15.1-1
 warnings-ng:8.4.4
