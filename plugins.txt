@@ -24,3 +24,5 @@ htmlpublisher:latest
 swarm:latest
 active-directory:2.20
 blueocean:1.24.3
+simple-theme-plugin:0.6
+hudson-wsclean-plugin:1.0.8
