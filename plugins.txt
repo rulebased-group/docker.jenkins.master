@@ -2,12 +2,12 @@ configuration-as-code:latest
 configuration-as-code-groovy:latest
 credentials:latest
 git:latest
-robot:latest
+
 matrix-project:latest
 matrix-auth:latest
 script-security:latest
 job-dsl:latest
-warnings-ng:latest
+
 workflow-aggregator:latest
 workflow-api:latest
 workflow-basic-steps:latest
@@ -26,7 +26,14 @@ active-directory:2.20
 blueocean:1.24.3
 simple-theme-plugin:0.6
 ws-cleanup:0.38
-junit:1.47
-jacoco:3.0.8
+
 font-awesome-api:5.15.1-1
+
+
+pipeline-utility-steps:2.6.1
+
+# metric and test runner
+robot:2.1.2
+junit:1.48
+jacoco:3.0.8
 warnings-ng:8.4.4
