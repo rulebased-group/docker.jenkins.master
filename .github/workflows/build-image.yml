@@ -6,8 +6,16 @@ on:
       - 'master'
 
 jobs:
+  hadolint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: hadolint/hadolint-action@v2.0.0
+        with:
+          dockerfile: Dockerfile
   docker:
     runs-on: ubuntu-latest
+    needs: hadolint
     steps:
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v1
@@ -21,10 +29,6 @@ jobs:
           registry: ghcr.io
           username: ${{ github.repository_owner }}
           password: ${{ secrets.GITHUB_TOKEN }}
-
-      - uses: hadolint/hadolint-action@v2.0.0
-        with:
-          dockerfile: Dockerfile
 
       - name: Build and push
         uses: docker/build-push-action@v2
