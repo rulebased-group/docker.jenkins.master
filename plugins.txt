@@ -22,18 +22,18 @@ workflow-support:latest
 authorize-project:latest
 htmlpublisher:latest
 swarm:latest
-active-directory:2.20
-blueocean:1.24.3
-simple-theme-plugin:0.6
-ws-cleanup:0.38
+active-directory:latest
+blueocean:latest
+simple-theme-plugin:latest
+ws-cleanup:latest
 
-font-awesome-api:5.15.1-1
+font-awesome-api:latest
 
 
-pipeline-utility-steps:2.6.1
+pipeline-utility-steps:latest
 
 # metric and test runner
-robot:2.1.2
-junit:1.48
-jacoco:3.0.8
-warnings-ng:8.4.4
+robot:latest
+junit:latest
+jacoco:latest
+warnings-ng:latest
