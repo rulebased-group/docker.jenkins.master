@@ -30,7 +30,7 @@ jobs:
       - name: prepare
         id: prepare
         run: |
-          DOCKER_IMAGE=${GITHUB_REPOSITORY,,}
+          DOCKER_IMAGE=${GITHUB_REPOSITORY//${GITHUB_REPOSITORY_OWNER}\//}
           
           echo ::set-output name=docker_image::${DOCKER_IMAGE}
 
