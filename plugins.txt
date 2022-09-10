@@ -37,3 +37,4 @@ robot:latest
 junit:latest
 jacoco:latest
 warnings-ng:latest
+cucumber-reports:latest
