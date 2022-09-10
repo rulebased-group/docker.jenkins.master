@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:lts
+FROM jenkins/jenkins:2.60.3
 
 LABEL authors="Constantin Krüger"
 LABEL maintainer="mail@constantin-krueger.com"
